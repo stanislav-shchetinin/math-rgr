@@ -1,0 +1,21 @@
+\begin{frame}\frametitle{Потенциал векторного поля}
+	\(U\) -- потенциал поля \(\vec H\). \\
+	Возьмем одну точку с фиксированными координтатами
+	$(x_0, y_0)$, а другую с переменными - $(x, y)$. \\
+	Найдем потенциал по формуле:
+	\begin{equation}
+		U =
+		\int\limits_{x_0}^{x} H_xdx + \int\limits_{y_0}^{y} H_ydy
+		\label{eq:u_integral}
+	\end{equation}
+
+	\begin{align*}
+		U =
+		\int\limits_{x_0}^{x} 1dx -
+		\int\limits_{y_0}^{y} \frac{1}{y^2} dy = 
+		x - x_0 + C_1 - (-\frac{1}{y} + \frac{1}{y_0} + C_2) =
+		x + \frac{1}{y} + C
+	\end{align*}
+	
+
+\end{frame}

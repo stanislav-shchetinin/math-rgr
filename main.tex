@@ -1,0 +1,39 @@
+\documentclass[
+  aspectratio=169,
+  xcolor={svgnames},
+  hyperref={colorlinks,citecolor=DarkBlue,urlcolor=DarkBlue,linkcolor=DarkBlue},
+  hideallsubsections
+]{beamer}
+\input{./src/preamble.tex}
+
+\title[РГР по матанализу]
+{Расчетно-графическая работа по математическому анализу}
+\subtitle{Вариант 5}
+\author[Гайдеров, Терехин, Цалов, Щетинин]
+{Гайдеров Ярослав \and Терехин Никита \and Цалов Василий \\ \and Щетинин Станислав}
+\institute[ИТМО]{Университет ИТМО}
+\date[2023 г.]{Декабрь 2023}
+\usetheme{Goettingen}
+
+
+\begin{document}
+\frame{\titlepage}
+
+\section{Задание 1. Потенциал векторного поля}
+\input{./src/task1/main.tex}
+
+\section{Задание 2. Поток векторного поля}
+\input{./src/task2/main.tex}
+
+\section{Задание 3. Конформные отображения}
+\input{./src/task3/main.tex}
+
+\section{Вывод}
+\input{./src/conclusion.tex}
+
+\begin{frame}\frametitle{Список литературы}
+	\nocite{*}
+	\printbibliography
+\end{frame}
+
+\end{document}
